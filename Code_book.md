@@ -7,7 +7,6 @@ output: html_document
 Steps taken to go from raw data to the final result:
 1) Downloaded and extracted the zip file:
 [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip]
-(zip)
 2) Loaded and merged all .txt files from test and train folders to a new data set called "all_data"
 3) Used the activity_labels.txt and features.txt files to label the data with descriptive names
 4) Subsetted the "all_data" dataset to a new dataset called "tidy" keeping the feature columns on 'mean' and 'std' and removing the other feature columns
